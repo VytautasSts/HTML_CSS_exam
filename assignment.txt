@@ -1,0 +1,43 @@
+HTML/CSS Exam
+Due tomorrow at 10:00 PM
+Instructions
+Užduotis
+
+Šio testo metu reikės sukurti "Responsive" puslapį, pageidautina - Mobile First. Puslapio kūrimui reikėtų naudoti tik HTML ir CSS. Papildomai, jeigu norite, galite naudoti ir CSS preprocesorius (SASS/SCSS/LESS). Tačiau, šį kartą, CSS framework'ų naudoti negalima.
+
+Puslapio dizainą, kurį reikia atkurti, rasite Figma puslapyje. Nuoroda pateikta žemiau:
+https://www.figma.com/file/AXFJWF3FUeEn9ppEuuXORE/NFT-Startup-Landing-Page?node-id=0%3A1
+
+Visus reikalingus paveiksliukus rasite archyve "assets", kuris yra prisegtas prie šio atsiskaitymo. Ten nėra tik ikonų, kurios naudojamos footer.  Jas galite parsisiųsti patys ir pridėti prie savo darbo (pvz. facebook icon iš iconscout.com), pasinaudoti CDN, arba papildomis ikonų biliotekomis (pvz. https://fontawesome.com/ arba https://icons.getbootstrap.com/). Reikėtų stengtis atkartoti dizainą kuo tiksliau, bet nebūtina naudoti idealiai tų pačių spalvų, šrifto ir t.t. 
+
+Svarbiausi vertinimo kriterijai: 
+Atkartoto puslapio dizaino tikslumas (3 taškai)
+HTML struktūra (2 taškai)
+HTML elementų pasirinkimas (1 taškas)
+Kodo stiliaus ir kokybės klaidos (2 taškai)
+Kodo formatavimas (1 taškas)
+Versijavimas su git ir įkėlimas į GitHub (1 taškas)
+
+Instrukcijas, kaip susikurti GitHub repozitoriją rasite - https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-new-repository arba žemiau.
+
+Užduoties įkėlimo instrukcijos
+
+Instrukcijas, kaip valdyti GitHub repozitorijas rasite - https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories arba step-by-step žemiau.
+
+1. Sukurti GitHub repozitoriją.
+
+Instrukcijas, kaip susikurti GitHub repozitoriją rasite - https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+
+2. Pakeitimus daryti atskiroje šakoje (pvz. dev), kad būtų galima sukurti Pull Request.
+
+Kaip galima sukurti Pull Request galite sužinoti čia - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+
+Naują šaką galima susikurti įvykdžius `git checkout -b dev` komandą terminale.
+
+3. Kuriant sistemą pakeitimus nuolatos saugoti su pakeitimus su prasmingomis "commit" žinutėmis.
+
+4. Pabaigus projektą patikrinti ar visi pakeitimai yra nusiųsti į GitHub, sukurti Pull Request per GitHub puslapį į pagrindinę šaką (`main` arba `master`) ir pateikti nuorodą šiame "assignment".
+
+Jeigu to padaryti nepavyks galite tiesiog įkelti archyvuotus failus.
+
+Sėkmės!

@@ -1,0 +1,293 @@
+html{
+    background-color: rgb(255, 255, 255);
+    line-height:1.15;
+    font-family:"Inter";
+}
+body{
+    padding:5%;
+}
+html, body{
+    max-width:100%;
+    overflow-x:hidden;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+nav, div{
+    display:block;
+}
+.navbarcontainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    width:60%;
+    height:40px;
+}
+.navigation{
+    width:40%;
+    height:100%;
+}
+.dropbtn{
+    float:right;
+    background-color:rgb(255, 255, 255);
+    border:none;
+}
+.logos div{
+    padding:1em;
+}
+.dropbtn img{
+    height:40px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    background-color:rgb(255, 255, 255);
+}
+.dropdown-content a{
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: rgb(197, 197, 197);
+}
+.navigation:hover .dropdown-content{
+    display: block;
+}
+main{
+    align-items: center;
+    width:100%;
+}
+.containerbig{
+    min-width:768px;
+    overflow:hidden;
+    height:fit-content;
+    padding: 5% 0% 10% 0%;
+    background-image:url(assets/graphic.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-origin:padding-box;
+    background-position-x: 95%;
+    background-position-y:top;
+    justify-content: space-between;
+}
+.big-left {
+    width:40%;
+    margin: 3% 0 0 0;
+}
+.dontmissit{ 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color:rgb(119, 136, 153);
+}
+.comingsoon {
+font-weight: 700;
+font-size: 16px;
+line-height: 19.36px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color:rgb(255,57,152);
+}
+.noother{
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+}
+.signupbtnborder{
+    background-image: url(assets/background.svg);
+    background-size: cover;
+    border-radius:4em;
+    height:4.5em;
+    width:10.5em;
+    padding:0.25em;
+}
+.signupbtn{
+    border-radius:4em;
+    height:4em;
+    width:10em;
+    background:rgb(255, 255, 255);
+}
+.article2{
+    padding:20% 5% 5% 5%;
+    background-image: url(assets/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.block2 h2{
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+}
+.block2 p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.logos{
+    margin-top: 3em;
+    display:grid;
+    grid-template: auto auto/auto auto;
+}
+.cardheader{
+    display:block;
+    width:100%;
+    text-align:left;
+}
+.cardheadername{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    text-transform:capitalize;
+}
+.cardheaderinfo{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color:rgb(119, 136, 153);
+}
+#linktobid{
+    color:inherit;
+}
+.album{
+    display:flex;
+    flex-wrap:nowrap;
+    overflow:scroll;
+}
+.card{
+    width:300px;
+    flex-wrap:column;
+    margin:3%;
+    border-radius:1em;
+}
+.cardpic{
+    height:cover;
+    width:100%;
+}
+.cardfooter{
+    background-color:rgba(238, 238, 238, 1);
+    display:flex;
+    flex-wrap:row;
+    height:fit-content;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.cardfooterleft, .cardfooterright{
+    width:50%;
+    padding:2%;
+    justify-content: bottom;
+}
+.cardfooterleft{
+    text-align:left;
+    display:flex;
+    flex-flow:column;
+}
+.cardfooterright{
+    text-align:right;
+    display:flex;
+    flex-flow:column;
+}
+.timeleft{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+}
+.highbid{
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(119, 119, 119);
+}
+.price{
+    font-weight: 500;
+    font-size: 20px;
+}
+.itemseries{
+    color: rgba(255, 129, 57, 1);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.itemname{
+    font-weight: 500;
+    font-size: 20px;
+}
+.itemno{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+}
+.timeleft, .highbig, .price, .itemseries, .itemname, .itemno{
+    height:fit-content;
+    text-justify: center;
+    margin:0;
+    padding:0;
+    line-height: 40px;
+}
+.containerbig2{
+    min-width:768px;
+    overflow:hidden;
+    height:fit-content;
+    padding: 5% 0% 10% 0%;
+    background-image:url(assets/upsell-footer-image.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-origin:padding-box;
+    background-position-x: 60%;
+    background-position-y:bottom;
+    border-top: 2px solid rgba(0, 0, 0, 0.4);
+    border-top: 2px solid rgba(0, 0, 0, 0.4);
+    justify-content: space-between;
+}
+.big-left2 {
+    width: 40%;
+    margin: 3% 0 0 0;
+}
+.footerblock{
+    display:flex;
+}
+.hideonmobile{
+    visibility:collapse;
+}
+.bottomleft, .bottomright{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.bottomright{
+    display:grid;
+    grid-template:auto auto/auto auto;
+}
+.bottomcontainer, footer{
+    color:rgb(119, 136, 153);
+}
+.icon{
+    color:rgb(119, 136, 153);
+}
+.icon:visited{
+    content:"";
+    color:rgb(10, 55, 99);
+}
+@media only screen and (min-width: 768px) {
+    .dropbtn{visibility: hidden;};
+    .dropdown-content{display:flex;
+    visibility: visible;};
+    .navigation:hover .dropdown-content{
+        display:flex;
+    };
+    .hideonmobile{visibility:visible;}
+    .logos{display:flex;justify-content: space-between;};
+    .company4{order: 5};
+    .company5{order: 4};
+    .album{display:flex;width:100%;overflow:visible}
+    .footerblock{display:flex;justify-content: space-between;}
+  }
