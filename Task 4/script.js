@@ -15,29 +15,28 @@ async function importData() {
   getCars(cars);
 }
 
-function getCars(cars) {
-  console.log(cars)
-  // document.getElementById("loading").style.visibility = "hidden";
+async function getCars(cars) {
+  for (let car in cars) {
+
+    const card = document.createElement('div');
+
+    const brand = document.createElement('h1');
+    brand.innerText = cars[car].brand;
+    brand.id='brand';
+    card.append(brand);
+
+    const variants = document.createElement('div');
+    variants.id = 'variants';
+    card.append(variants);
+
+    for (i=0; i<cars[car].models.length; i++){
+      const model = document.createElement('p');
+      model.innerText = cars[car].models[i];
+      variants.append(model);
+    }
+
+    document.getElementById("output").append(card);
+  }
 };
 
 importData();
-
-//   function createUserCard (user){  
-
-//     const img = document.createElement('img');
-//     img.src = user.avatar_url;
-//     img.alt = `${user.login} profile picture`;
-
-//     const login = document.createElement('h4');
-//     login.innerText = user.login; 
-
-//     const card = document.createElement('div');
-//     card.append(login, img);
-
-//     document.getElementById("output").append(card);
-//   }
-
-//   function changeView(){
-//     document.getElementById("message").style.visibility ="collapse";
-//     document.getElementById("output").style.textAlign = "center";
-//   };
